@@ -1,0 +1,41 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# --- WordPress core ---
+/*
+!.gitignore
+!wp-content/
+
+# --- WordPress content we *do* track ---
+#   (remove the bang "!" to ignore a plugin or theme)
+/wp-content/*
+!wp-content/plugins/
+/wp-content/themes/
+# !wp-content/themes/your-theme/   # keep only your theme
+
+# --- Runtime content we never track ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+https://github.com/Lirkoff/freelance-sprint-2025/yoga-studio-wp
+# --- Config & secrets ---
+wp-config.php
+.env
+*.sql
+*.log
+
+# --- Tooling/IDE/build ---
+.idea/
+node_modules/
+vendor/
+dist/
+build/
+.DS_Store
+Thumbs.db
