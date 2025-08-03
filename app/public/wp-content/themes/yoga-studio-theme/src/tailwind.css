@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component examples */
+.btn-primary {
+    @apply inline-block rounded-full bg-sage px-6 py-3 font-semibold text-white shadow
+    hover:bg-sage/90 transition;
+}
