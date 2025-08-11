@@ -13,10 +13,13 @@ function yoga_studio_theme_files() {
     );
 
 
-    wp_enqueue_script('yoga-studio-js',
-        get_theme_file_uri('/build/index.js'),
+    $js_ver = filemtime( get_theme_file_path( '/build/index.js' ) );
+
+    wp_enqueue_script(
+        'yoga-studio-js',
+        get_theme_file_uri( '/build/index.js' ),
         [],
-        '1.0',
+        $js_ver,
         true
     );
 
@@ -32,3 +35,13 @@ function yoga_studio_theme_files() {
 }
 
 add_action('wp_enqueue_scripts', 'yoga_studio_theme_files');
+
+
+function yoga_studio_theme_setup() {
+//    register_nav_menu('headerMenuLocation', 'Header Menu Location');
+//    register_nav_menu('footerLocationOne', 'Footer Location One');
+//    register_nav_menu('footerLocationTwo', 'Footer Location Two');
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'yoga_studio_theme_setup');

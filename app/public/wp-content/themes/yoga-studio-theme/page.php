@@ -14,12 +14,12 @@ while (have_posts()) {
                         <?php the_title(); ?>
                     </h1>
 
-<!--                    <!-- Featured image (optional) -->
-<!--                    --><?php //if ( has_post_thumbnail() ) : ?>
-<!--                        <figure class="mb-8">-->
-<!--                            --><?php //the_post_thumbnail( 'large', [ 'class' => 'w-full rounded-xl shadow-lg' ] ); ?>
-<!--                        </figure>-->
-<!--                    --><?php //endif; ?>
+                    <!-- Featured image (optional) -->
+                    <?php if ( has_post_thumbnail() ) : ?>
+                        <figure class="mb-8">
+                            <?php the_post_thumbnail( 'large', [ 'class' => 'w-full rounded-xl shadow-lg' ] ); ?>
+                        </figure>
+                    <?php endif; ?>
 
                     <!-- Page content -->
                     <div class="entry-content">
@@ -27,14 +27,14 @@ while (have_posts()) {
                     </div>
                 </article>
 
-                <!-- Comments (optional) -->
-<!--                --><?php
-//                if ( comments_open() || get_comments_number() ) :
-//                    echo '<div class="mt-12">';
-//                    comments_template();
-//                    echo '</div>';
-//                endif;
-//                ?>
+<!--                 Comments (optional) -->
+                <?php
+                if ( comments_open() || get_comments_number() ) :
+                    echo '<div class="mt-12">';
+                    comments_template();
+                    echo '</div>';
+                endif;
+                ?>
 
 
         </div>

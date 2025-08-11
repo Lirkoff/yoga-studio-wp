@@ -25,3 +25,137 @@
 [02-Aug-2025 08:08:43 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\Asus\Local Sites\yoga-studio\app\public/wp-content/themes/yoga-studio-theme/yoga-studio.css in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php on line 10
 [02-Aug-2025 08:08:43 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\Asus\Local Sites\yoga-studio\app\public/wp-content/themes/yoga-studio-theme/yoga-studio.css in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php on line 10
 [02-Aug-2025 08:08:43 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\Asus\Local Sites\yoga-studio\app\public/wp-content/themes/yoga-studio-theme/yoga-studio.css in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php on line 10
+[10-Aug-2025 14:07:47 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:07:47 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Asus\\L...')
+#9 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:07:49 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:07:49 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:07:49 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:07:49 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\index.php(17): require('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:07:50 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:07:50 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:07:50 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:07:50 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\index.php(17): require('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:08:39 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:08:39 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:08:39 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:08:39 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\index.php(17): require('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:08:43 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:08:43 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
+[10-Aug-2025 14:08:43 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 95
+[10-Aug-2025 14:08:43 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, string given in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php:102
+Stack trace:
+#0 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php(102): array_merge(Array, 'headerMenuLocat...')
+#1 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-content\themes\yoga-studio-theme\functions.php(41): register_nav_menus('headerMenuLocat...', 'Header Menu Loc...')
+#2 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(324): yoga_studio_theme_setup('')
+#3 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#6 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-config.php(103): require_once('C:\\Users\\Asus\\L...')
+#7 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-load.php(50): require_once('C:\\Users\\Asus\\L...')
+#8 C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Asus\\L...')
+#9 C:\Users\Asus\Local Sites\yoga-studio\app\public\index.php(17): require('C:\\Users\\Asus\\L...')
+#10 {main}
+  thrown in C:\Users\Asus\Local Sites\yoga-studio\app\public\wp-includes\nav-menu.php on line 102
