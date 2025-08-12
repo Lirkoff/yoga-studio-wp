@@ -4,7 +4,7 @@ get_header(); ?>
 
 <!-- Hero -->
 <section class="relative isolate h-[70vh] flex items-center justify-center text-center">
-        <img src="<?php echo get_theme_file_uri('/images/hero.png'); ?>"
+    <img src="<?php echo get_theme_file_uri('/images/hero.png'); ?>"
          alt="Group practicing yoga"
          class="absolute inset-0 -z-10 h-full w-full object-cover"/>
     <div class="max-w-2xl px-6">
@@ -23,16 +23,16 @@ get_header(); ?>
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 text-center gap-10 py-12">
         <?php
         $services = [
-            ['icon' => 'studio.png',  'label' => 'In-Studio'],
-            ['icon' => 'stream.png',  'label' => 'Livestream'],
-            ['icon' => 'ondemand.png','label' => 'On-Demand']
+                ['icon' => 'studio.png', 'label' => 'In-Studio'],
+                ['icon' => 'stream.png', 'label' => 'Livestream'],
+                ['icon' => 'ondemand.png', 'label' => 'On-Demand']
         ];
-        foreach ( $services as $item ) : ?>
+        foreach ($services as $item) : ?>
             <div>
                 <img src="<?php echo get_theme_file_uri('/images/icons/' . $item['icon']); ?>"
                      alt=""
                      class="mx-auto h-12 mb-4"/>
-                <p class="text-lg font-semibold"><?php echo esc_html( $item['label'] ); ?></p>
+                <p class="text-lg font-semibold"><?php echo esc_html($item['label']); ?></p>
             </div>
         <?php endforeach; ?>
     </div>
@@ -57,10 +57,17 @@ get_header(); ?>
                 <tbody>
                 <tr class="bg-sand/40">
                     <td class="py-2">5:00 am — Vinyasa</td>
-                    <td>Swimmer</td><td>In-Studio</td><td class="font-bold">6:00 am — Sunrise Flow</td><td>Summer Yin</td>
+                    <td>Swimmer</td>
+                    <td>In-Studio</td>
+                    <td class="font-bold">6:00 am — Sunrise Flow</td>
+                    <td>Summer Yin</td>
                 </tr>
                 <tr class="bg-sand/60">
-                    <td class="py-2">5:00 pm — Yin</td><td>Yoga Nidra</td><td>On-Demand</td><td>5:30 pm — Cafe Tum</td><td>Slow Flow</td>
+                    <td class="py-2">5:00 pm — Yin</td>
+                    <td>Yoga Nidra</td>
+                    <td>On-Demand</td>
+                    <td>5:30 pm — Cafe Tum</td>
+                    <td>Slow Flow</td>
                 </tr>
                 </tbody>
             </table>
@@ -74,7 +81,7 @@ $teacher_photo = get_theme_file_uri('/images/emma.png'); // placeholder
 ?>
 <section class="bg-sand py-16">
     <div class="container mx-auto flex flex-col md:flex-row items-center gap-10">
-        <img src="<?php echo esc_url( $teacher_photo ); ?>" alt="Emma Duncan"
+        <img src="<?php echo esc_url($teacher_photo); ?>" alt="Emma Duncan"
              class="h-40 w-40 rounded-full object-cover shadow-lg">
         <div>
             <h3 class="font-heading text-2xl mb-2">Emma Duncan</h3>
@@ -84,6 +91,19 @@ $teacher_photo = get_theme_file_uri('/images/emma.png'); // placeholder
         </div>
     </div>
 </section>
+
+<?php
+    $homepageEvents = new WP_Query(array(
+            'post_per_page' => 2,
+            'post_type' => 'event'
+    ));
+
+    while ($homepageEvents->have_posts()) {
+            $homepageEvents->the_post(); ?>
+<!--           put the template for the events here-->
+    <?php }
+?>
+
 
 <!-- Newsletter CTA -->
 <section class="py-16 text-center">
